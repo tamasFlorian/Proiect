@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FARMACIE" Class="legaturaBazaDateDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=FARMACIE;Integrated Security=True" SettingsObjectName="Proiect.Properties.Settings" SettingsPropertyName="FARMACIEConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Medicamente" Member="Medicamentes">
+    <Type Name="Medicamente">
+      <Column Name="strDenumineComerciala" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="strSubstanta" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="id_medicament" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Pacienti" Member="Pacientis">
+    <Type Name="Pacienti">
+      <Column Name="strPacient" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="idReteta" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Retete" Member="Retetes">
+    <Type Name="Retete">
+      <Column Name="strMedicament" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="idReteta" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="legaturaBazaDate">
+  <DataContextMoniker Name="/legaturaBazaDateDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9aca10f6-3bf5-4537-9857-0ba905d6b9e5" absoluteBounds="6.375, 1.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/legaturaBazaDateDataContext/Medicamente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a1842f5-7004-4032-a9c8-4c4c80e30061" absoluteBounds="6.39, 2.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d6093fc4-eb03-4fcd-96d9-4f790a09d425" absoluteBounds="4.375, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/legaturaBazaDateDataContext/Pacienti" />
+      <nestedChildShapes>
+        <elementListCompartment Id="67a605bf-7c05-4c7b-a8a3-2d7d1ba12de1" absoluteBounds="4.39, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f2f1582b-6fc8-4252-a711-6c5e5c598754" absoluteBounds="2.25, 2, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/legaturaBazaDateDataContext/Retete" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bcf48957-778a-41c9-996d-4c3beee56f0d" absoluteBounds="2.2649999999999997, 2.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
